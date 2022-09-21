@@ -41,7 +41,7 @@ add_subdirectory(lib)
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_link_libraries(${PROJECT_NAME} PRIVATE ImGui-SFML::ImGui-SFML)
-target_link_libraries(${PROJECT_NAME} PRIVATE sfml-audio)
+#target_link_libraries(${PROJECT_NAME} PRIVATE sfml-audio)
 target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics)
 target_link_libraries(${PROJECT_NAME} PRIVATE sfml-network)
 target_link_libraries(${PROJECT_NAME} PRIVATE sfml-system)
